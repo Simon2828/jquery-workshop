@@ -29,10 +29,12 @@ function WidthChange(mq) {
     // window width is at least 500px
     $("form").sticky({topSpacing:0});
     $(".container").css('flex-direction','row');
+    $(".aside").css('width', '30%');
   } else {
     // window width is less than 500px
     $("form").unstick();
     $(".container").css('flex-direction','column');
+    $("aside").css('width','100%')
   }
 
 }

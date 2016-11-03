@@ -12,8 +12,12 @@ body {
     margin: 0 auto;
 }
 
-form {
+aside {
     width: 30%;
+}
+
+form {
+    width: 100%;
 }
 
 .mobile {
@@ -22,7 +26,7 @@ form {
 }
 
 #sticky-wrapper {
-    width: 9em;
+    width: 100%;
 }
 
 .text {
@@ -43,6 +47,7 @@ input {
     padding: 0 10px;
     margin: 0;
     background: none;
+    width: 100%;
 }
 
 
@@ -59,5 +64,9 @@ button {
     background: none;
     cursor: pointer;
     margin-top: 2em;
-    width: 150px;
+    width: 100%;
+}
+
+form h2 {
+    text-align: center;
 }
