@@ -1,1 +1,63 @@
-/* Write your code here */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+form {
+    width: 30%;
+}
+
+.mobile {
+    display: block;
+    width: 100%;
+}
+
+#sticky-wrapper {
+    width: 9em;
+}
+
+.text {
+    width: 70%;
+    margin-left: 2em
+}
+
+input[type=search] {
+  border: 1px dotted #999;
+  border-radius: 0;
+
+  -webkit-appearance: none;
+}
+
+input {
+    font: .9em/1.5em "handwriting", sans-serif;
+    border: 1px solid #d66;
+    padding: 0 10px;
+    margin: 0;
+    background: none;
+}
+
+
+input:focus {
+  background   : rgba(0,0,0,.1);
+  border-radius: 5px;
+  outline      : none;
+}
+
+button {
+    font: bold .6em sans-serif;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    margin-top: 2em;
+    width: 150px;
+}
